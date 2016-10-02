@@ -1,7 +1,7 @@
 #How to loop through arrays within Objects with jQuery.
 
 
-`
+```
 $(document).ready(function(){
 
   $.getJSON('main.json', function(info) {
@@ -19,11 +19,11 @@ $(document).ready(function(){
     update.innerHTML = output;
   });
 });
-
+```
 
 The json file being accessed is the "main.json" file.
 
-'
+```
 {
   "full_name": "Chris Daynes",
   "title": "Computer Programmer",
@@ -36,16 +36,4 @@ The json file being accessed is the "main.json" file.
   ]
 }
 
-'
-
-
-
-
-
-
-
-
-
-
-
-`
+```
